@@ -1,5 +1,4 @@
-import React from 'react'
-
+/* eslint-disable react/prop-types */
 export default function Input({ label, id, name, value, onChange, error }) {
   return (
     <div className="input-container">

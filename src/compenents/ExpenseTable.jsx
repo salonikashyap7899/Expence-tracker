@@ -25,7 +25,7 @@ export default function ExpenseTable({ expenses, setExpenses }) {
             <th>Title</th>
             <th>
               <select onChange={(e) => setQuery(e.target.value.toLowerCase())}>
-                <option value="">All</option>
+                <option value="" className='select'>All</option>
                 <option value="grocery">Grocery</option>
                 <option value="clothes">Clothes</option>
                 <option value="bills">Bills</option>

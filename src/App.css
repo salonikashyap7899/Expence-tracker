@@ -3,11 +3,18 @@
 body {
     font-family:  "Nunito", sans-serif;
     margin: 0 32px;
+    background-color: black;
 }
 
 main {
     max-width: 900px;
     margin-inline: auto;
+}
+h1 {
+  font-size: 3.2em;
+  text-align: center;
+  line-height: 1.1;
+  color: white;
 }
 
 * {
@@ -17,10 +24,13 @@ main {
 .expense-tracker {
     display: flex;
     gap: 32px;
+    color: rgba(255, 255, 255, 0.676);
 }
 
 .expense-form {
     width: 100%;
+    color: rgba(255, 255, 255, 0.676);
+
 }
 
 .expense-table {
@@ -46,7 +56,8 @@ main {
 
 .arrow {
     transition: transform 0.2s ease-in-out;
-    cursor: pointer;
+    cursor: pointer;    
+   
 }
 
 .up-arrow {
@@ -77,15 +88,18 @@ main {
     flex-direction: column;
     margin-bottom: 16px;
     position: relative;
+     cursor: pointer;
 }
 
 .input-container label {
     font-size: 14px;
+    
 }
 
 .input-container input {
     height: 28px;
     font-family: inherit;
+   
 }
 #category{
     height: 28px;
@@ -98,7 +112,9 @@ main {
     font-size: 18px;
     font-family: inherit;
     margin-top: 8px;
+    cursor: pointer;
 }
+
 
 .context-menu {
     background-color: white;
