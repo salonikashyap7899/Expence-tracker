@@ -3,7 +3,6 @@
 body {
     font-family:  "Nunito", sans-serif;
     margin: 0 32px;
-    background-color: black;
 }
 
 main {
@@ -14,7 +13,6 @@ h1 {
   font-size: 3.2em;
   text-align: center;
   line-height: 1.1;
-  color: white;
 }
 
 * {
@@ -24,12 +22,11 @@ h1 {
 .expense-tracker {
     display: flex;
     gap: 32px;
-    color: rgba(255, 255, 255, 0.676);
+
 }
 
 .expense-form {
     width: 100%;
-    color: rgba(255, 255, 255, 0.676);
 
 }
 

@@ -1,20 +1,25 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
-import ExpenseForm from './compenents/ExpenseForm'
-import ExpenseTable from './compenents/ExpenseTable'
-import expenseData from '../expenceData'
+import Counter from './compenents/counter'
+// import ExpenseForm from './compenents/ExpenseForm'
+// import ExpenseTable from './compenents/ExpenseTable'
+// import expenseData from '../expenceData'
 function App() {
-  const [expenses, setExpenses] = useState(expenseData)
+  // const [expenses, setExpenses] = useState(expenseData)
 
   return (
     <main>
+      <Counter/>
       <h1>Track Your Expense</h1>
       <div className="expense-tracker">
-        <ExpenseForm setExpenses={setExpenses} />
-        <ExpenseTable expenses={expenses} setExpenses={setExpenses} />
+       
+        {/* <ExpenseForm setExpenses={setExpenses} /> */}
+        {/* <ExpenseTable expenses={expenses} setExpenses={setExpenses} /> */}
+    
       </div>
     </main>
   )
 }
+
 
 export default App
